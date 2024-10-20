@@ -2,7 +2,7 @@ from flask import Flask, render_template, jsonify, request, send_file
 from src.exception import CustomException
 from src.logger import logging as lg
 import os,sys
-
+# libraries
 
 from src.pipeline.train_pipeline import TrainingPipeline
 from src.pipeline.predict_pipeline import PredictionPipeline
