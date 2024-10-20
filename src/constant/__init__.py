@@ -7,7 +7,7 @@ MONGO_COLLECTION_NAME = "waferproject"
 
 
 TARGET_COLUMN = "quality"
-MONGO_DB_URL= 'mongodb+srv://Siddhesh:MukruROxpwIPnuvj@cluster0.wqxco.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+MONGO_DB_URL="mongodb+srv://Siddhesh:MukruROxpwIPnuvj@cluster0.wqxco.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 
 MODEL_FILE_NAME = "model"

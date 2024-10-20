@@ -41,6 +41,8 @@ class MainUtils:
             raise CustomException(e, sys) from e
 
 
+   
+
 
     @staticmethod
     def save_object(file_path: str, obj: object) -> None:
@@ -57,6 +59,10 @@ class MainUtils:
 
         except Exception as e:
             raise CustomException(e, sys) from e
+
+
+   
+
 
     @staticmethod
     def load_object(file_path: str) -> object:
@@ -85,3 +91,4 @@ class MainUtils:
         except Exception as e:
             logging.info('Exception Occured in load_object function utils')
             raise CustomException(e,sys)
+   
